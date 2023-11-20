@@ -34,7 +34,7 @@ export default function Model({ ModelToggle, isModelOpen}) {
             </div>
             <h2 className="my-4">Please Login Here!</h2>
             <div>
-              <form action="/Login">
+              <form action="http://localhost:3044/Login" onSubmit={handleSubmit}>
                 <div className=" gap-y-5 lg:px-10 grid">
                   <div>
                      <input type="email"
