@@ -11,7 +11,7 @@ export default function BlogPage() {
 
     useEffect (()=>{
         async function getData() {
-            let URL = `http://localhost:3593/datas?page=${currentPages}&lim=${pages}`;
+            let URL = `http://localhost:3044/datas?page=${currentPages}&lim=${pages}`;
 
             if(category){
                 URL = `&category=${setCategory}`;
