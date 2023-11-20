@@ -27,7 +27,7 @@ export default function ContectMe() {
             consectetur officia eum magni temporibus</p>
       </div>
       <div>
-        <form action="/Message" onSubmit={handleSubmit} className="px-10 py-9">
+        <form action="action="http://localhost:3044/message" onSubmit={handleSubmit} className="px-10 py-9">
             <div className="flex gap-x-2 items-center justify-between  gap-y-6">
                <div>
                 <input type="text" name="name"
