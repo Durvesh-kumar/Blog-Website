@@ -19,7 +19,7 @@ export default function SingUp() {
       })
   return (
     <div className='p-10'>
-      <form action="/SingUp" onSubmit={handleSubmit} className="grid mt-8 items-center justify-center">
+      <form action="action="http://localhost:3044/SingUp" onSubmit={handleSubmit} className="grid mt-8 items-center justify-center">
         <h1 className="text-2xl flex items-center justify-center font-semibold ">Registor hera!</h1>
         <div className="">
      <div className="grid grid-cols-1 gap-y-6 lg:gap-x-20 mt-10 lg:grid-cols-2">
