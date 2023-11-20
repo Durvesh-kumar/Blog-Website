@@ -6,7 +6,7 @@ export default function Sidebar() {
 
     useEffect(()=>{
         async function getData() {
-            const res = await fetch(`http://localhost:3593/datas`)
+            const res = await fetch(`http://localhost:3044/datas`)
             if(res.ok){
                 const data = await res.json();
                 return data
